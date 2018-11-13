@@ -2,11 +2,11 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/scrum1.jpg'){
-        myImage.setAttribute('src', 'images/scrum2.png');
+    if (mySrc === 'scrum1.jpg'){
+        myImage.setAttribute('src', 'scrum2.png');
     }
     else {
-        myImage.setAttribute('src', 'images/scrum1.jpg');
+        myImage.setAttribute('src', 'scrum1.jpg');
     }
 }
 
